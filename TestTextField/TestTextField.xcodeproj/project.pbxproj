@@ -15,6 +15,7 @@
 		72BA684F1F00FB380072F5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BA684D1F00FB380072F5B2 /* LaunchScreen.storyboard */; };
 		72BA685A1F00FB380072F5B2 /* TestTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68591F00FB380072F5B2 /* TestTextFieldTests.m */; };
 		72BA68651F00FB380072F5B2 /* TestTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68641F00FB380072F5B2 /* TestTextFieldUITests.m */; };
+		72BA68751F00FD240072F5B2 /* MSQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68741F00FD240072F5B2 /* MSQTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		72BA68601F00FB380072F5B2 /* TestTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BA68641F00FB380072F5B2 /* TestTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldUITests.m; sourceTree = "<group>"; };
 		72BA68661F00FB380072F5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BA68731F00FD240072F5B2 /* MSQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQTextField.h; sourceTree = "<group>"; };
+		72BA68741F00FD240072F5B2 /* MSQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				72BA68431F00FB380072F5B2 /* AppDelegate.m */,
 				72BA68451F00FB380072F5B2 /* ViewController.h */,
 				72BA68461F00FB380072F5B2 /* ViewController.m */,
+				72BA68721F00FD0E0072F5B2 /* TextField类 */,
 				72BA68481F00FB380072F5B2 /* Main.storyboard */,
 				72BA684B1F00FB380072F5B2 /* Assets.xcassets */,
 				72BA684D1F00FB380072F5B2 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				72BA68661F00FB380072F5B2 /* Info.plist */,
 			);
 			path = TestTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		72BA68721F00FD0E0072F5B2 /* TextField类 */ = {
+			isa = PBXGroup;
+			children = (
+				72BA68731F00FD240072F5B2 /* MSQTextField.h */,
+				72BA68741F00FD240072F5B2 /* MSQTextField.m */,
+			);
+			path = "TextField类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				72BA68471F00FB380072F5B2 /* ViewController.m in Sources */,
 				72BA68441F00FB380072F5B2 /* AppDelegate.m in Sources */,
 				72BA68411F00FB380072F5B2 /* main.m in Sources */,
+				72BA68751F00FD240072F5B2 /* MSQTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
