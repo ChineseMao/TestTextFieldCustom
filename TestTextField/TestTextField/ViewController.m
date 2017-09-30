@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MSQTextField.h"
+#import "NSString+MaoEmoji.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,10 @@
     
     self.textField.frame = CGRectMake(40, 100, self.view.frame.size.width-80, 50);
     
-    
+    NSString *str = nil;
+    if (str.length) {
+        
+    }
     
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -33,6 +37,14 @@
     [self.view endEditing:YES];
 }
 
+- (void)textFieldChange:(MSQTextField *)sender {
+    
+    
+    NSLog(@"%@/n",sender.text);
+    NSLog(@"%@",[sender.text stringByReplacingEmojiWithString:@"表情"]);
+    
+}
+
 
 - (MSQTextField *)textField {
     
@@ -40,6 +52,7 @@
         _textField = [[MSQTextField alloc] init];
         
         [_textField setBorderStyle:UITextBorderStyleRoundedRect];
+        [_textField addTarget:self action:@selector(textFieldChange:) forControlEvents:UIControlEventEditingChanged];
         [_textField customWithPlaceholder:@"我在这显示" color:[UIColor redColor] font:[UIFont systemFontOfSize:18]];
         [self.view addSubview:_textField];
     }

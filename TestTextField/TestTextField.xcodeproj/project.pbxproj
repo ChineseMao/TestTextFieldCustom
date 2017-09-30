@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729C87E61F43F53A009D17F0 /* NSString+MaoEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 729C87E51F43F53A009D17F0 /* NSString+MaoEmoji.m */; };
 		72BA68411F00FB380072F5B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68401F00FB380072F5B2 /* main.m */; };
 		72BA68441F00FB380072F5B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68431F00FB380072F5B2 /* AppDelegate.m */; };
 		72BA68471F00FB380072F5B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA68461F00FB380072F5B2 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		729C87E41F43F53A009D17F0 /* NSString+MaoEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MaoEmoji.h"; sourceTree = "<group>"; };
+		729C87E51F43F53A009D17F0 /* NSString+MaoEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MaoEmoji.m"; sourceTree = "<group>"; };
 		72BA683C1F00FB380072F5B2 /* TestTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BA68401F00FB380072F5B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		72BA68421F00FB380072F5B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 		72BA68721F00FD0E0072F5B2 /* TextField类 */ = {
 			isa = PBXGroup;
 			children = (
+				729C87E41F43F53A009D17F0 /* NSString+MaoEmoji.h */,
+				729C87E51F43F53A009D17F0 /* NSString+MaoEmoji.m */,
 				72BA68731F00FD240072F5B2 /* MSQTextField.h */,
 				72BA68741F00FD240072F5B2 /* MSQTextField.m */,
 			);
@@ -289,6 +294,7 @@
 			files = (
 				72BA68471F00FB380072F5B2 /* ViewController.m in Sources */,
 				72BA68441F00FB380072F5B2 /* AppDelegate.m in Sources */,
+				729C87E61F43F53A009D17F0 /* NSString+MaoEmoji.m in Sources */,
 				72BA68411F00FB380072F5B2 /* main.m in Sources */,
 				72BA68751F00FD240072F5B2 /* MSQTextField.m in Sources */,
 			);
@@ -528,6 +534,7 @@
 				72BA686B1F00FB380072F5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72BA686C1F00FB380072F5B2 /* Build configuration list for PBXNativeTarget "TestTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +543,7 @@
 				72BA686E1F00FB380072F5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72BA686F1F00FB380072F5B2 /* Build configuration list for PBXNativeTarget "TestTextFieldUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +552,7 @@
 				72BA68711F00FB380072F5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
